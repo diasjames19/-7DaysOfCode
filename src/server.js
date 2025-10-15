@@ -7,5 +7,4 @@ const testConction  = servidorHttp.createServer((req,res)=>{
     res.end('Node, Server!')
 });
 testConction.listen(3000);
-
 console.log("Acesso ao Servido pela porta:3000");
