@@ -1,1 +1,2 @@
-# -7DaysOfCode
+
+# Typescript module
