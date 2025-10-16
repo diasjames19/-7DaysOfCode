@@ -3,7 +3,6 @@ import connectMyDb from './database/db.js';
 
 
 const appConnction  = servidorHttp.createServer((req,res)=>{
-
     res.writeHead(200,{'Content-type': 'text/html'});
     res.end('Node, Server!')
 });
