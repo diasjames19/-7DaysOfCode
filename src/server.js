@@ -1,10 +1,12 @@
 import servidorHttp from 'http';
+import connectMyDb from './database/db.js';
 
 
-const testConction  = servidorHttp.createServer((req,res)=>{
+const appConnction  = servidorHttp.createServer((req,res)=>{
 
     res.writeHead(200,{'Content-type': 'text/html'});
     res.end('Node, Server!')
 });
-testConction.listen(3000);
+connectMyDb();
+appConnction.listen(3000);
 console.log("Acesso ao Servido pela porta:3000");
