@@ -13,3 +13,8 @@ Ao final desse projeto, você terá desenvolvido não só um sistema de gerencia
 - [x] Criar a estrutura inicial do projeto, por meio de uma pasta chamada “src” na raiz do projeto que deve conter pastas organizadas para rotas, controladores, modelos e banco de dados.
 - [x] Configurar o nodemon no package.json para facilitar o desenvolvimento, permitindo que o servidor reinicie automaticamente após cada alteração.
 - [x] Criar um um arquivo principal server.js  na raiz do nosso projeto, para configurar o servidor.
+
+## 2ºDia
+- [x] Configurar o arquivo db.js dentro da pasta database para se conectar ao banco de dados SQLite.alteração.
+- [x] Definir a tabela missions com colunas: id, name, crew, spacecraft, destination, status, e duration.
+- [x] Criar um script de inicialização que será executado sempre que a aplicação for iniciada para garantir que as tabelas existam.
